@@ -1,0 +1,753 @@
+/* FLOW */
+
+/* ---------------- LAYOUT ---------------------- */
+
+
+body {
+	background-color:#e5e5e5;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	}
+	
+footer {
+	text-align:center;
+	font-size:10px;
+	padding:5px 0;
+	}
+
+/* --------------- NAV BAR ------------------- */
+
+header {
+	background-image:url(../img/stucco.png);
+	border-bottom:1px solid #666;
+	}	
+
+a {
+	cursor: pointer;
+}
+	
+
+.navbar-inner {
+	padding:5px 0;
+	min-height: 20px;
+	}
+
+.navbar .nav > li {
+	/* border-left: 1px solid #bbbdc0; */
+	width:75px;
+	text-align:center;
+	/*background-image:url(../img/navSprite_desktop.png);
+	background-color:#666;*/
+	}
+
+.navbar .nav > li [class^="icon-"] {
+	font-size:40px;
+	color:#666;
+}
+	
+.navbar .nav > li.first {
+	border:none;
+	}
+	
+.navbar .nav > li > a {
+	padding: 10px 15px;
+	}
+	
+/*.navbar .nav > li.networking { background-position: -82px 0; }
+.navbar .nav > li.messages { background-position: -164px 0; }
+.navbar .nav > li.annnouncements { background-position: -242px 0; }
+.navbar .nav > li.settings { background-position: -318px 0; }
+.navbar .nav > li.help { background-position: -390px 0; }
+.navbar .nav > li.connection { background-position: -464px 0; }
+
+
+.navbar .nav > li:focus,
+.navbar .nav > li:hover {
+	background-color: #6a9fcb; 
+	}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+	color:#d2e8f8;   
+	}
+*/
+
+.logout {
+	text-align:right;
+	}
+
+	
+/* ------------------ Main Content Area ----------------*/
+
+.mainContent {
+	-webkit-box-shadow: 0 3px 5px #969696;
+	-moz-box-shadow: 0 3px 5px #969696;
+	box-shadow: 0 3px 5px #969696;
+	background-color: #f1f1f1;
+	margin-bottom:15px;
+	padding-bottom:1px;
+	}
+	
+
+.boxShadow {
+	-webkit-box-shadow:  0px 0px 2px 2px #bbbbbb;
+     box-shadow:  0px 0px 2px 2px #bbbbbb;
+	 margin:10px;
+	 background-color:#fff;
+	 padding:10px;
+	}
+
+.boxShadow.grey {
+	background-color:#f1f1f1;
+	padding-bottom:1px;
+	}
+	
+.boxShadow .boxShadow {
+	padding:5px;
+	}
+
+/* ------------------ Errors ---------------- */
+
+.validation-summary-errors ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.validation-summary-errors ul li.errorMessage,
+.alert-msg {
+	background-color: #ff9993;
+	padding: 5px 10px;
+}
+
+.validation-summary-errors ul li.errorMessage {
+	
+}
+
+.validation-summary-errors ul li.errorMessage:first-of-type {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.validation-summary-errors ul li.errorMessage:last-of-type {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.validation-summary-errors ul li.successMessage,
+.alert-msg {
+	/*background-color: Cyan;*/
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+/* ------------------ Headings ---------------*/
+
+.headingBar.grey {
+	background-color: #ccc;
+	min-height: 45px;
+}
+
+#userSignoutBar {
+	padding: 7px 0;
+}
+
+#userSignoutBar h5 {
+	margin: 0;
+	padding: 5px 0 5px 10px;
+}
+
+#userSignoutBar a {
+	margin-right: 10px;
+}
+
+.headingBar.bgLvl2 {
+	/* background-color: #8ec3e9; */
+	padding: 5px 10px;
+}
+
+.headingBar h4 {
+	margin-left: 20px;
+}
+
+.headingBar.bgLvl2 h4 {
+	margin-left: 0;
+}
+
+.headingBar .form-search {
+	padding: 7px;
+	float: right;
+}
+	
+#startView .headingBar.bgPrimary {
+	/*background-color: #bbd2e6;*/
+	padding: 5px 0 5px 15px;
+	border:1px solid #aaa;
+	margin:20px 0;
+}
+
+#startView .headingBar.bgLvl2 h5 {
+	margin:0;
+}
+
+.headingBar .btn {
+	margin-right: 10px;
+}
+
+.headingBar .form-search .btn {
+	margin-right: 0;
+}
+
+h4.textTitle {
+	margin:0 0 20px 0;
+	}
+	
+/* ------------------ SIDEBAR ------------------*/
+
+.sidebar {
+	margin-top:10px;
+	}
+
+
+	
+/* ------------------ FORMS ---------------------*/
+
+/*
+.input-append .add-on, 
+.input-prepend .add-on {
+	background-color: #6a9fcb;
+	}
+*/
+
+.form-search .input-prepend .btn {
+	/* background-color: #6a9fcb; */
+	background-image:none;
+	-webkit-border-radius: 2px 0 0 2px;
+	-moz-border-radius: 2px 0 0 2px;
+	border-radius: 2px 0 0 2px;
+	}
+
+/* 
+.form-search .input-prepend .btn:hover {
+	background-color: #69757f;  
+	}
+ */
+
+.form-horizontal .control-label {
+	font-weight:bold;
+	/* color:#69757f; */
+	}
+
+form .control-label {
+	font-weight: bold;
+}
+
+.center .btn {
+	margin-left: 3px;
+	margin-right: 3px;
+	min-width: 70px;
+}
+
+button img.loadingSpinner {
+	margin-right: 7px;
+}
+	
+	
+/* ------------------- GENERAL -----------------*/	
+
+.floatRight {
+	float:right;
+	margin: 5px 0;
+	}
+
+.floatLeft {
+	float:left;
+	margin: 0 5px ;
+	}
+
+#logo img {
+	width:220px; 
+	height:25px;
+	}
+
+div.inner {
+	padding: 10px;
+}
+
+hr {
+	margin: 10px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.center {
+	text-align: center;
+}
+
+.btn i.nudgeLeft {
+	position: relative;
+	left: -5px;
+}
+
+.btn, button, a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+[class^="icon-"] {
+	color:#666;
+	}
+
+.icon-white {
+	color:#fff;
+	}
+
+
+/* ---------------------- LOGIN ---------------------*/
+
+body.login {
+	background-image:url(../img/stucco.png);
+	}
+
+#login {
+	width: 300px;
+	margin:0 auto;
+	}
+
+body.login form.form-horizontal {
+	margin: 20px 10px 10px 10px;
+	}
+	
+#login .form-horizontal .control-label {
+	width:75px;
+	}
+	
+#login .form-horizontal .controls {
+	margin-left:85px;
+	}
+
+#login form + div {
+	text-align:center;
+	padding-bottom:20px;
+	}
+
+body.login .headingBar.bgLvl2 {
+	/* background-color:#42637f; */
+	color:#fff;
+	width:400px;
+	margin: 0 auto;
+	text-align:left;
+	-webkit-box-shadow: 0 2px 5px #000;
+	-moz-box-shadow: 0 2px 5px #000;
+	box-shadow: 0 3px 2px #000;
+	}
+
+body.login .headingBar .btn {
+	margin-top:5px;
+	}
+
+body.login header {
+	/* background-color: #bbd2e6; */
+	background-image:none;
+	}
+
+body.login header div {
+	text-align:center;
+	}
+
+body.login #logoLogin img {
+	margin:50px 0 20px 0;
+	}
+
+body.login .boxShadow {
+	margin:0;
+	}
+
+#buttonLogin {
+		width: 270px;
+		float: right;
+		margin-bottom:15px;
+}
+
+
+#logoLogin {
+	height: 215px;
+	/* background-image:url(../img/logo_flow.png);  */
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+
+body .authenticated-hidden {
+	display:none;
+	}
+
+body.login .authenticated-hidden {
+	display:block;
+	}
+
+body.login .unauthenticated-hidden {
+	display:none;
+	}
+
+.split-btn {
+	width:49%;
+	}
+	
+.resetPasswordSteps,
+.recoveryLinks {
+	border-top: 1px solid #666;
+	padding: 15px 0 20px 0;
+	clear:both;
+	}
+
+resetPasswordSteps {
+	margin-top: 75px;
+	}
+
+.usernameMsg {
+	padding:30px 70px 50px 70px;
+	font-size:14px;
+	text-align:center;
+	}
+
+.usernameMsg + .btn {
+	margin-bottom:60px;
+	}
+
+.resetPasswordSteps {
+	text-align:center;
+	}
+
+.resetPasswordSteps.step1 {
+	/* margin-top:190px; */
+	margin-top: 45px;
+	}
+
+.resetPasswordSteps.step2  {
+	margin-top:25px;
+	}
+
+.passwordConfirmMsg {
+	margin:30px 0 0 0;
+	text-align:center;
+	}
+
+.passwordConfirmMsg button {
+	margin: 30px 0 5px 0 ;
+	}
+
+body.login div.boxShadow {
+	min-height: 220px;
+}
+
+body.login .container {
+	width:420px;
+	}
+	
+.form-details .details-label,
+.form-condensed.form-horizontal .control-label {
+	width:100px;
+	}
+
+.form-details .details, 
+.form-condensed.form-horizontal .controls {
+	margin-left:110px;
+	}
+
+.form-horizontal.form-stacked .control-label {
+		width:100%;
+		text-align:left;
+	}
+
+.form-horizontal.form-stacked .controls {
+		margin-left:0;
+	}
+
+
+/* ---------------------- FORM DETAILS ------------------ */
+
+
+.details-label {
+    text-align: right;
+    padding-top: 5px;
+}
+
+.details {
+    padding: 5px 0 20px 10px;
+    margin-left: 5px;
+    border-left: 2px solid #ccc;
+}
+
+div.details-scroll {
+    max-height: 160px;
+    overflow: scroll;
+}
+
+.details-scroll-space {
+    padding-top: 20px;
+}
+
+div.vertial-rule {
+    margin: 0 5px;
+    border-left: 2px solid #ccc;
+    height: 40px;
+    position: relative;
+    top: -8px;
+}
+
+ul.details {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+.scroll-box {
+    max-height: 100px;
+    overflow-y: auto;
+    -ms-overflow-y: auto;
+}
+
+.connectedDetails {
+	margin:0 10px;
+}
+
+
+
+/* ---------------------- START ---------------------*/
+
+.startText {
+	margin-bottom:10px;
+	}
+
+#startView input.span3 {
+	width:97%;
+	}
+
+#startView select.span3 {
+	width:100%;
+	}
+
+
+.headingBar.grey {
+		padding:1px;
+	}
+
+.headingBar.grey h4 {
+		width:auto;
+	}
+	
+ 
+@media (max-width: 480px) {
+	
+	body{
+		padding:0;
+		background-color: #f1f1f1;
+		}
+	
+	.navbar .nav {
+		margin:0;
+		}
+	
+	.navbar .nav > li [class^="icon-"]{
+		/*padding: 6px 15px;*/
+		font-size:30px;
+	}
+	
+	.navbar .nav > li {
+		width:52px;
+		/*background-size:400px 32px;
+		background-repeat:no-repeat;*/
+	}
+	
+	
+	/*
+	.navbar .nav > li.networking { background-position: -64px 0; }
+	.navbar .nav > li.messages { background-position: -125px 0; }
+	.navbar .nav > li.annnouncements { background-position: -180px 0; }
+	.navbar .nav > li.settings { background-position: -235px 0; }
+	.navbar .nav > li.help { background-position: -288px 0; }
+	.navbar .nav > li.connection { background-position: -300px 0; }
+	*/
+	.headingBar h4 {
+		margin-left: 0;
+		padding-left:10px;
+	}
+	
+	.connection-btn {
+		padding:10px;
+		background-image:url(../img/navSprite_mobile_connection.png);
+		background-position:0 0;
+		background-repeat:no-repeat;
+		width:25px;
+		margin-top: -7px;
+		}
+		
+	.connection-btn:hover {
+		background-position:0 -39px;
+		}
+	
+	#logo img{
+		width:150px;
+		height:17px;
+		}
+	
+	.mainContent {
+		-webkit-box-shadow:none;
+		-moz-box-shadow:none;
+		box-shadow:none;
+		margin-bottom: 0;
+		padding-bottom: 40px;
+		}
+	
+	footer {
+	/*	background-color:#bbd2e6; */
+		padding:10px 0;
+		/*position:fixed;
+		bottom:0;*/
+		width:100%;
+		height:20px;
+		}
+		
+	
+	
+	/* ------------------ LOGIN ------------------- */
+	
+	#logoLogin {
+		height: 175px;
+	}
+
+	body.login .form-horizontal label {
+		display:block;
+		font-size: 18px;
+	}
+	
+	body.login #login .form-horizontal .controls {
+		margin-left: 0;
+	}
+		
+	body.login #login .form-horizontal .btn {
+		margin-top: 20px;
+	}
+	
+	body.login .phone-center {
+		text-align:center;
+	}
+	
+	body.login .container {
+		width:100%;
+	}
+	
+	.form-details .details-label,
+	#loginView .form-horizontal .control-label {
+		width:100%;
+	}
+
+	.form-details .details,
+	#loginView .form-horizontal .controls {
+		margin-left:0;
+	}
+		
+	body.login .mainContent {
+		padding-bottom: 10px;
+	}	
+	
+	body.login .headingBar.bgLvl2  {
+		width: auto;
+		}
+	
+	#loginView .recoveryLinks {
+		font-size:12px;
+		}
+	
+	#buttonLogin {
+		width: 100%;
+		float: none;
+	}
+	
+	
+	/* ------------------ START ------------------- */ 
+	
+	#startView input.span3,
+	#startView select.span3 {
+		width: 100%;
+	}
+	
+	
+	/* ---------------------- FORM DETIALS ------------------ */
+	
+	.details-label.pull-left {
+		float:none;
+		display:block;
+		text-align:left;
+		}
+
+	.details {
+		padding:0;
+		margin-left: 0;
+		border-left: none;
+	}
+
+	.buttonControls {
+		text-align: center;
+	}
+		
+}
+
+@media (min-width : 321px) { 
+	
+	#login ,
+	body.login .headingBar.bgLvl2 {
+		width: 400px;
+		}
+	
+	body.login div.boxShadow {
+		min-height: 150px;
+	}
+	
+	.usernameMsg {
+		padding:20px 40px 30px 40px;
+		font-size:14px;
+		text-align:center;
+	}
+	
+	.usernameMsg + .btn {
+		margin-bottom:20px;
+	}
+	
+	.resetPasswordSteps.step1,
+	.resetPasswordSteps.step2,
+	.resetPasswordSteps.step3 {
+		margin-top:35px;
+	}
+	
+}
+
+
+
+@media (min-width : 321px) and (max-width: 480px) {
+	
+	#login ,
+	body.login .headingBar.bgLvl2 {
+		width: auto;
+		}
+	
+	/*body.login div.boxShadow {
+		min-height: 150px;
+	}
+	
+	.usernameMsg {
+		padding:20px 40px 30px 40px;
+		font-size:14px;
+		text-align:center;
+	}
+	
+	.usernameMsg + .btn {
+		margin-bottom:20px;
+	}
+	
+	.resetPasswordSteps.step1,
+	.resetPasswordSteps.step2,
+	.resetPasswordSteps.step3 {
+		margin-top:35px;
+	} */
+	
+}
+

@@ -1,0 +1,78 @@
+/* DEFAULT FLOW COLOR THEME */
+
+.bgPrimary {
+	background-color: #bbd2e6;
+}
+
+.bgAccent {
+	background-color: #d2e8f8;
+}
+
+.bgLvl1,
+.form-search .input-prepend .btn:hover {
+	background-color: #69757f;
+}
+	
+.bgLvl2 {
+	background-color: #42637f;
+}
+
+.bgLvl3,
+.form-search .input-prepend .btn,
+.input-append .add-on, 
+.input-prepend .add-on {
+	background-color: #6a9fcb;
+}
+
+.bgLvl4 {
+	background-color: #8ec3e9;
+}
+
+.txtPrimary {
+	color: #bbd2e6;
+}
+
+.txtAccent {
+	color: #d2e8f8;
+}
+
+.txtLvl1 {
+	color: #69757f;
+}
+	
+.txtLvl2 {
+	color: #42637f;
+}
+
+.txtLvl3,
+.navbar .nav > li:focus,
+.navbar .nav > li:hover,
+.navbar .nav > li.active [class^="icon-"] {
+	color: #6a9fcb;
+}
+
+.txtLvl4 {
+	color: #8ec3e9;
+}
+
+#logoLogin {
+	background-image:url(../img/logo_flow.png);
+	}
+
+.navbar .nav > li {
+	border-left: 1px solid #bbbdc0; 
+	}
+
+.headingBar.blue {
+	background-color: #bbd2e6;
+}
+
+li.successMessage {
+	background-color: #d2e8f8;
+}
+
+@media (max-width: 480px) {
+	footer {
+		background-color:#bbd2e6; 
+	}
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skylanders</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap-appResponsive.css" />
+<link rel="stylesheet" type="text/css" href="css/flow_appLayout.css" />
+<link rel="stylesheet" type="text/css" href="css/flow_theme.css" />
+<script type="text/javascript" src="vendor/underscore-min.js"></script>
+<script type="text/javascript" src="vendor/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="vendor/bootstrap.js"></script>
+<script type="text/javascript" src="vendor/backbone.js"></script>
+<script type="text/javascript" src="vendor/backbone.localstorage.js"></script>
+<script type="text/javascript" src="js/namespaces.js"></script>
+<script type="text/template" id="SkylandersList-template">
+  <% _.each(skylanders, function(skylander) { %>
+  	<div>
+    <h3 data-character="<%= skylander.Name %>" class="character"><%= skylander.Name %></h3>
+  	<h4><%= skylander.Element %></h4>
+  	<img src="img/<%= skylander.Image %>" /> 
+  	<ul>
+      	<li >Strength:<%= skylander.Power %></li>
+      	<li >Speed:<%= skylander.Speed %></li>
+      	<li >Shield:<%= skylander.Shield %></li>
+      	<li >Luck:<%= skylander.Luck %></li>
+     </ul>
+    <% }); %>
+</script>
+</head>
+<body>
+
+<div id="content"></a>
+ </body> 
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/models.js"></script>
+<script type="text/javascript" src="js/collections.js"></script>
+<script type="text/javascript" src="js/views.js"></script>
+</body>
+</html>
